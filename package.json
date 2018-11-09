@@ -1,0 +1,25 @@
+{
+  "name": "vue-data-attr-remover",
+  "description": "Vue compiler module that allows you to easily remove data- attributes",
+  "version": "0.1.0",
+  "keywords": [
+    "vue",
+    "vue-template-compiler",
+    "vue-loader"
+  ],
+  "scripts": {
+    "test": "jest test/*.test.js"
+  },
+  "bugs": "https://github.com/visualfanatic/vue-data-attr-remover/issues",
+  "repository": "visualfanatic/vue-data-attr-remover",
+  "license": "MIT",
+  "author": "Damian Stasik <npm@coded.pl>",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
