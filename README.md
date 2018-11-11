@@ -56,3 +56,11 @@ module.exports = {
   },
 };
 ```
+
+## API
+
+| Name                | Type       | Default value                                 |
+|---------------------|------------|-----------------------------------------------|
+| `condition`         | `Function` | `() => process.env.NODE_ENV === 'production'` |
+| `onlyExactAttrName` | `Boolean`  | `true`                                        |
+| `attrNameSuffix`    | `String`   | `'test'`                                      |
