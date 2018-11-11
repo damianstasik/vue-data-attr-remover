@@ -1,3 +1,13 @@
+<h1 align="center">vue-data-attr-remover</h1>
+<p align="center">Vue compiler module that allows you to easily remove <code>data-*</code> attributes</p>
+
+## Instalation
+``` bash
+npm i -D vue-data-attr-remover
+
+yarn add --dev vue-data-attr-remover
+```
+
 ## Usage
 ### `vue.config.js`
 ```js
